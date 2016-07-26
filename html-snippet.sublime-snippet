@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="$1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>${2:Untitled}</title>
+       	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    </head>
+    <body>
+        <div class="content"></div>
+        <script>
+            (function(\$, window, document) {
+                $3
+            })(jQuery, window, document);
+        </script>
+    </body>
+</html>]]></content>
+    <tabTrigger>doctype</tabTrigger>
+    <description>HTML - HTML foundation</description>
+    <!-- <scope>text.html</scope> -->
+</snippet>
